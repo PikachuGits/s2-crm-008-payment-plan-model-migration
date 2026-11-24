@@ -1,0 +1,9 @@
+[project]
+name = "s2-crm-008-payment-plan"
+version = "0.1.0"
+description = "会员空间平台 · 回款计划表 crm_payment_plan 模型与 Alembic 迁移（工单 S2-CRM-008）"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
